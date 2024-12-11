@@ -4,13 +4,12 @@
 }
 body {
   background-color: #f2f9ff;
-  border: 10px solid #deaa79;
+  border: 3px dashed #deaa79;
 }
 
 .container {
   max-width: 900px;
-  height: 120vh;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 /* banner section start */
@@ -83,6 +82,16 @@ body {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.5px;
+}
+
+.read_more_section {
+  margin-top: 30px;
+}
+.read_more_section p {
+  font-size: 18px;
+}
+.read_more_section a {
+  text-decoration: none;
 }
 
 /* main section end */
