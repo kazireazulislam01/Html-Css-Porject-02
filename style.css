@@ -9,10 +9,11 @@ body {
 
 .container {
   max-width: 900px;
-  height: 100vh;
+  height: 120vh;
   margin: 0 auto;
 }
 
+/* banner section start */
 .banner_section {
   display: flex;
   justify-content: space-between;
@@ -36,3 +37,52 @@ body {
   font-weight: 500;
   text-align: right;
 }
+
+/* banner section end */
+
+/* main section start */
+.main_section {
+}
+.background_and_early_life {
+  margin-bottom: 30px;
+}
+
+.background_and_early_life h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.background_and_early_life p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.migration {
+  margin-bottom: 30px;
+}
+.migration h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.migration p {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.list_of_things {
+}
+.list_of_things h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.list_of_things ul {
+  margin-left: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* main section end */
